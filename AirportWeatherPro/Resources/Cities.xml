@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<main>
+
+  <City>
+    <CityName>Αθήνα</CityName>
+    <AirportName>Ελευθέριος Βένιζέλος</AirportName>
+    <AirportCode>ATH</AirportCode>
+    <AirportPhone>2103530000</AirportPhone>
+    <AirportAdress>Αττική Οδός, Σπάτα Αρτέμιδα</AirportAdress>
+  </City>
+  
+  <City>
+    <CityName>Αλεξ/πολη</CityName>
+    <AirportName>Δημόκριτος</AirportName>
+    <AirportCode>AXD</AirportCode>
+    <AirportPhone>2551026207</AirportPhone>
+    <AirportAdress> 7 χλμ από το κέντρο της Αλεξ/πολης</AirportAdress>
+  </City>
+
+  <City>
+    <CityName>Ζάκυνθος</CityName>
+    <AirportName>Διονύσιος Σολωμός</AirportName>
+    <AirportCode>ZTH</AirportCode>
+    <AirportPhone>2695028611</AirportPhone>
+    <AirportAdress>περιοχή Λαγανά,6 χλμ από την Ζακύνθο</AirportAdress>
+  </City>
+    
+  <City>
+    <CityName>Ηράκλειο</CityName>
+    <AirportName>Νίκος Καζαντζάκης</AirportName>
+    <AirportCode>HER</AirportCode>
+    <AirportPhone>2810228402</AirportPhone>
+    <AirportAdress>Ηράκλειο 71601</AirportAdress>
+  </City>
+  
+  <City>
+    <CityName>Θεσσαλονίκη</CityName>
+    <AirportName>Μακεδονία</AirportName>
+    <AirportCode>SKG</AirportCode>
+    <AirportPhone>2310368666</AirportPhone>
+    <AirportAdress>15 χλμ. Ν/Α από την Θεσσαλονίκη, Δήμος Θέρμης </AirportAdress>
+  </City>
+  
+  <City>
+    <CityName>Καβάλα</CityName>
+    <AirportName>Μέγας Αλέξανδρος</AirportName>
+    <AirportCode>KVA</AirportCode>
+    <AirportPhone>2510223622</AirportPhone>
+    <AirportAdress>Χρυσούπολη Καβάλας. 30χλμ από την Καβάλα.</AirportAdress>
+  </City>
+  
+  <City>
+    <CityName>Κάρπαθος</CityName>
+    <AirportName>Αμμόπη</AirportName>
+    <AirportCode>AOK</AirportCode>
+    <AirportPhone>2245023101-2</AirportPhone>
+    <AirportAdress>Περιοχή Αφιάρτη 15 χλμ απο την Κάρπαθο</AirportAdress>
+  </City>
+
+  <City>
+    <CityName>Κέρκυρα</CityName>
+    <AirportName>Ιωάννης Καποδίστριας </AirportName>
+    <AirportCode>CFU</AirportCode>
+    <AirportPhone>2661038694</AirportPhone>
+    <AirportAdress>3 χλμ από το κέντρο της πόλης 491008</AirportAdress>
+  </City>
+  
+  <City>
+    <CityName>Κεφαλονιά</CityName>
+    <AirportName>Οδυσσέας</AirportName>
+    <AirportCode>KLX</AirportCode>
+    <AirportPhone>2671028808</AirportPhone>
+    <AirportAdress>10 χλμ απο το Αργοστόλι 28100</AirportAdress>
+  </City>
+
+  <City>
+    <CityName>Κοζάνη</CityName>
+    <AirportName>Φίλιππος</AirportName>
+    <AirportCode>KZI</AirportCode>
+    <AirportPhone>2461036462</AirportPhone>
+    <AirportAdress>Πετρανά, 4 χιλιόμετρα από την πόλη της Κοζάνης 50100</AirportAdress>
+  </City>
+  
+  <City>
+    <CityName>Κώς</CityName>
+    <AirportName>Ιπποκράτης</AirportName>
+    <AirportCode>KGS</AirportCode>
+    <AirportPhone>2242028331</AirportPhone>
+    <AirportAdress>Αντιμάχεια, 27 χλμ απο την Κω</AirportAdress>
+  </City>
+
+  <City>
+    <CityName>Λήμνος</CityName>
+    <AirportName>Ήφαιστος </AirportName>
+    <AirportCode>LXS</AirportCode>
+    <AirportPhone>2254029400</AirportPhone>
+    <AirportAdress> 22 χλμ. ανατολικά της Μύρινας</AirportAdress>
+  </City>
+
+  <City>
+    <CityName>Μυτιλήνη</CityName>
+    <AirportName>Οδυσσέας Ελύτης</AirportName>
+    <AirportCode>MJT</AirportCode>
+    <AirportPhone>2251028659</AirportPhone>
+    <AirportAdress>8 χλμ από την Μυτιλήνη, περιοχή της Βαρειάς</AirportAdress>
+  </City>
+
+  <City>
+    <CityName>Πάτρα</CityName>
+    <AirportName>Αγαμέμνων</AirportName>
+    <AirportCode>GPA</AirportCode>
+    <AirportPhone>2610278903</AirportPhone>
+    <AirportAdress>Δήμος Λαρισσός, 45 χλμ απο την Πάτρα</AirportAdress>
+  </City>
+
+  <City>
+    <CityName>Ρόδος</CityName>
+    <AirportName>Διαγόρας</AirportName>
+    <AirportCode>RHO</AirportCode>
+    <AirportPhone>2241024571</AirportPhone>
+    <AirportAdress>6 χλμ Ν/Δ της Ρόδου, κοντά στο χωριό Παραδείσι</AirportAdress>
+  </City>
+
+  <City>
+    <CityName>Σάμος</CityName>
+    <AirportName>Αρίσταρχος</AirportName>
+    <AirportCode>SMI</AirportCode>
+    <AirportPhone>2273027237</AirportPhone>
+    <AirportAdress>10 χλμ Νοτιοδυτικά της Σάμου</AirportAdress>
+  </City>
+
+  <City>
+    <CityName>Σαντορίνη</CityName>
+    <AirportName>Ζέφυρος</AirportName>
+    <AirportCode>JTR</AirportCode>
+    <AirportPhone>21</AirportPhone>
+    <AirportAdress>6 χλμ από τα Φηρά</AirportAdress>
+  </City>
+  
+  <City>
+    <CityName>Σκιάθος</CityName>
+    <AirportName>Α. Παπαδιαμάντης</AirportName>
+    <AirportCode>JSI</AirportCode>
+    <AirportPhone>2427022200</AirportPhone>
+    <AirportAdress>4 χλμ από το κέντρο της Σκιάθου</AirportAdress>
+  </City>
+
+  <City>
+    <CityName>Χίος</CityName>
+    <AirportName>Όμηρος</AirportName>
+    <AirportCode>JKH</AirportCode>
+    <AirportPhone>2271044261-2</AirportPhone>
+    <AirportAdress>Νότια 4 χλμ της Χίου </AirportAdress>
+  </City>
+
+
+</main>

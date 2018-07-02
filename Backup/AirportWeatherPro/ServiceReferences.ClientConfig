@@ -1,0 +1,17 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="GlobalWeatherSoap" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="None" />
+                </binding>
+            </basicHttpBinding>
+        </bindings>
+        <client>
+            <endpoint address="http://www.webservicex.net/globalweather.asmx"
+                binding="basicHttpBinding" bindingConfiguration="GlobalWeatherSoap"
+                contract="WeatherService.GlobalWeatherSoap" name="GlobalWeatherSoap" />
+        </client>
+    </system.serviceModel>
+</configuration>

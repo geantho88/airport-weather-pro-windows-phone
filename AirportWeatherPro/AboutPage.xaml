@@ -1,0 +1,76 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="AirportWeatherPro.About"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    toolkit:TiltEffect.IsTiltEnabled="true"
+    shell:SystemTray.IsVisible="True" BackKeyPress="PhoneApplicationPage_BackKeyPress">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Height="782" Width="493">
+        <!--Pivot Control-->
+        <controls:Pivot Title="Airport Weather Pro" Foreground="White" Background="{x:Null}" Margin="0,0,0,30">
+            <!--Pivot item one-->
+            <controls:PivotItem Header="The App.." Foreground="White">
+                <Grid Height="604" Width="469">
+                    <ScrollViewer Height="559" HorizontalAlignment="Left" Margin="5,6,0,0" Name="scrollViewer1" VerticalAlignment="Top" Width="454">
+                        <TextBlock Height="712" Name="TheAppBox" Text="Airport Weather Pro . Πληροφορηθείται για τις καιρικές συνθήκες σε όλους τους αερολιμένες της Ελλάδας. Η ενημέρωση και ο συγχρονισμός των δεδομένων απαιτεί σύνδεση στο διαδύκτιο. Τα δεδομένα μετά τον συγχρονισμό αποθηκεύονται στη συσκευή σας. Κάθε φορά που επιλέγεται κάποιον αερολιμένα πραγματοποιείται αυτόματα απόπειρα ανανέωσης των δεδομένων εφόσον είστε συνδεδεμένοι στο διαδίκτυο.  Η AVC IT Δεν αναλαμβάνει καμία ευθύνη για την εγκυρότητα των δεδομένων και η εφαρμογή διατίθεται για πληροφοριακούς σκοπούς.  " TextWrapping="Wrap" FontFamily="Segoe WP Semibold" FontSize="28" TextAlignment="Center" />
+                    </ScrollViewer>
+                </Grid>
+            </controls:PivotItem>
+
+            <!--Pivot item two-->
+            <controls:PivotItem Header="About" Foreground="White">
+                <Grid>
+                    <Button Height="90" HorizontalAlignment="Left" Margin="19,107,0,0" Name="ContactButton" VerticalAlignment="Top" Width="90" BorderThickness="0" Click="ContactButton_Click">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/AirportWeatherPro;component/Images/mail.png" />
+                        </Button.Background>
+                    </Button>
+                    <Button Height="90" HorizontalAlignment="Left" Margin="16,323,0,0" Name="UpdateButton" VerticalAlignment="Top" Width="90" BorderThickness="0" Click="UpdateButton_Click">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/AirportWeatherPro;component/Images/download.png" />
+                        </Button.Background>
+                    </Button>
+                    <Button Height="90" HorizontalAlignment="Left" Margin="16,216,0,0" Name="RateAppButton" VerticalAlignment="Top" Width="90" BorderThickness="0" Click="RateAppButton_Click">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/AirportWeatherPro;component/Images/cfavs.png" />
+                        </Button.Background>
+                    </Button>
+                    <TextBlock Height="50" HorizontalAlignment="Right" Margin="0,120,13,0" Name="ContactUsLabel" Text="Contact Us" VerticalAlignment="Top" FontFamily="Segoe WP Semibold" FontSize="35" Width="321" />
+                    <TextBlock Height="47" HorizontalAlignment="Left" Margin="137,238,0,0" Name="RateAppLabel" Text="Rate this App !" VerticalAlignment="Top" FontFamily="Segoe WP Semibold" FontSize="35" />
+                    <TextBlock Height="48" HorizontalAlignment="Left" Margin="138,332,0,0" Name="UpdateLavel" Text="Update " VerticalAlignment="Top" Width="128" TextWrapping="Wrap" FontFamily="Segoe WP Semibold" FontSize="35" />
+                    <TextBlock FontFamily="Segoe WP Semibold" FontSize="35" Height="50" HorizontalAlignment="Left" Margin="42,7,0,0" Name="textBlock4" Text="Airport Weather Pro App" VerticalAlignment="Top" />
+                    <TextBlock FontFamily="Segoe WP" FontSize="20" FontStretch="Condensed" FontStyle="Italic" FontWeight="Light" Foreground="White" Height="91" Margin="139,376,75,124" Name="textBlock5" Opacity="0.9" Text="Δεν υπάρχει ανανεωμένη έκδοση" TextAlignment="Left" TextWrapping="Wrap" Width="255" />
+                    <Image Height="63" HorizontalAlignment="Left" Margin="332,523,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="129" Source="/AirportWeatherPro;component/Images/brand.png" />
+                </Grid>
+            </controls:PivotItem>
+        </controls:Pivot>
+        <Grid.Background>
+            <ImageBrush ImageSource="/AirportWeatherPro;component/Images/aboutbackground.png" />
+        </Grid.Background>
+    </Grid>
+
+    <!--Sample code showing usage of ApplicationBar-->
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton x:Name="appbar_button1" IconUri="/Images/appbar_button1.png" Text="Button 1"/>
+            <shell:ApplicationBarIconButton x:Name="appbar_button2" IconUri="/Images/appbar_button2.png" Text="Button 2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem x:Name="menuItem1" Text="MenuItem 1"/>
+                <shell:ApplicationBarMenuItem x:Name="menuItem2" Text="MenuItem 2"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
+    
+</phone:PhoneApplicationPage>
